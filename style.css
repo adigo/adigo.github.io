@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #1E1E20 url("images/dc923dfd.png");
+    font: 15px Arial, Helvetica, sans-serif;
+}
+
+div#wrapper{
+    background: url("images/a7a371.png") repeat-y;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background: #EFECCA;
+    background: -webkit-linear-gradient(left, #EFECCA, #2e2c1f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #EFECCA, #2e2c1f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #EFECCA, #2e2c1f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #EFECCA, #2e2c1f); /* Standard syntax */
+    height: 155px;
+}
+
+header img{
+    float: left;
+}
+
+header h1{
+    padding 30px;
+    color: #f2f2f2;
+    margin: 50px;
+    text-align: right;
+}
+
+.subhead  { 
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    font-size: 70%;
+    color: #ccc;
+    font-style: oblique;
+}
+
+header>nav{
+    padding:10px 10px;
+    background: #046380;
+}
+
+header>nav ul{
+    list-style-type: none;
+}
+
+header>nav li{
+    display: inline;
+}
+
+header>nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #F2EBC7;
+    font-size: 120%;
+}
+
+header>nav a:hover{
+    background-color: #002f2f;
+    color: #F2EBC7;
+}
+
+header>nav .dropdown-li:hover, header>nav .dropdown-content a:hover {
+    background-color: #002f2f;
+    color: #F2EBC7;
+}
+
+/* Dropdown Content (Hidden by Default) */
+header>nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #046380;
+    left: 0px;
+    font-size: 80%;
+    color: #F2EBC7;
+}
+
+/* Links inside the dropdown */
+header>nav .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    color: #F2EBC7;
+}
+
+header>nav .dropdown-li {
+    padding: 10px 10px;
+    color: #F2EBC7;
+    font-size: 120%;
+    position: relative;
+}
+
+/* Show the dropdown menu on hover */
+header>nav  .dropdown-li:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+header+nav.pagenav{
+    float: left;
+    width: 200px;
+}
+
+header+nav.pagenav ul{
+    list-style-type: none;
+}
+
+header+nav.pagenav a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #002f2f;
+}
+
+header+nav.pagenav a:hover{
+    background-color: #2e2c1f;
+    color: #EFECCA;
+}
+
+article{
+    margin-left: 200px;
+    background-color: #FFF;
+}
+
+article h1{
+    background-color: #962D3E;
+    color: #f2f2f2;
+    padding: 5px;
+}
+
+article h2{
+    padding: 10px;
+    color: #962D3E;
+}
+
+article h3{
+    padding: 10px;
+    color: #348899;
+}
+
+article p{
+    padding: 5px 10px;
+    line-height: 120%;
+    clear: left;
+}
+
+footer{
+    padding: 10px;
+    background-color: #046380;
+    color: #F2EBC7;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F2EBC7;
+}
+
+aside#photo{
+    float: right;
+    padding: 0;
+    margin: 50px;
+}
+
+aside#resources{
+    float: right;
+    padding: 0;
+    background-color: #F2EBC7;
+    margin: 50px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+aside#resources ul{
+    list-style-type: none;
+    padding: 15px;
+}
+
+aside#resources h2{
+    background-color: #962D3E;
+    color: #F2EBC7; 
+    padding: 8px;
+    font-size: 120%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside#resources a{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #962D3E;
+}
+
+aside#resources a:visited{
+    color: #ca4e63;
+}
+
+aside#resources a:hover{
+    background-color: #979C9C;
+    color: #F2EBC7;
+}
+
+#resume ul{
+    padding: 0px 20px;
+}
+
+#resume li, article li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#resume li li, article li li{
+    list-style-type: square;
+    padding-bottom: 0px;
+    font-weight: normal;
+}
+
+#resume li li li{
+    list-style-type: circle;
+}
+
+table, tr, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+table {
+    background-color: #C2D6D6;
+    margin: 0px auto;
+}
+
+th {
+    color: #f2f2f2;
+    background-color: #225E7C;
+    width: 50%;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(even)  {
+    background-color: #85B0C4;
+}
